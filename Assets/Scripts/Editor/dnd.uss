@@ -1,0 +1,35 @@
+.droparea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+    right: 50px;
+    background-color: #34a9dc;
+    border-width: 5px;
+    border-color: #f798e6;
+}
+
+.droparea:hover {
+    background-color: #f5d38b;
+}
+
+Label {
+    color: darkslategray;
+    -unity-text-align: upper-center;
+}
+
+.droparea.dragover {
+    border-width: 5px;
+    border-color: red;
+}
+
+.box {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: #00205b;
+    color: antiquewhite;
+    white-space: normal;
+    border-width: 2px;
+    border-color: #f5d38b
+}
